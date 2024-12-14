@@ -1,0 +1,199 @@
+body{
+    background:linear-gradient(#FEFEFE, #E7E9F0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between header, main, and footer */
+    min-height: 100vh; /* Ensure body height fills the viewport */
+    margin: 0;
+  }
+  
+  h2{
+    font-size: 100px;
+    font-family: "Teko", sans-serif;
+    color:#052747;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  p{
+    font-size: 35px;
+    font-family: "Nunito Sans", sans-serif;
+    text-align: justify;
+    margin: 50px;
+    color:#052747;
+  }
+  
+  .icon-bar {
+    display: flex;
+    gap: 20px; 
+    justify-content: left; 
+    background-color:  #535F80; 
+    padding: 20px; 
+    border-bottom: 4px solid rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  }
+  
+  
+  .nav-link {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    padding: 10px 15px; 
+    border: 2px solid rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
+    transition: all 0.3s ease; 
+  }
+  
+  
+  .nav-link:hover {
+    transform: scale(1.1); 
+    color: #081f62;
+    background-color: #E7E9F0; 
+    box-shadow: 0 4px 8px #051757; 
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  #myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #081F62;
+    color: #FEFEFE;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  #myBtn:hover {
+    background-color: #535F80; 
+  }
+  
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+  height: 5o0px;
+  width: 500px;
+  border: 30px solid #535f809a;
+  border-radius: 50px;
+  padding: 20px;
+  
+}
+
+.caption{
+    font-size: 20px;
+    text-align: center;
+    color: #052747;
+    margin-top: 20px;
+    font-style: italic;
+    
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    margin-top: 20px;   
+  }
+  
+ 
+  .download {
+    font-size: 25px;
+    color: #535F80;
+    text-decoration: none;
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    padding: 10px 15px; 
+    border: 2px solid #535F80; 
+    border-radius: 10px; 
+    transition: all 0.3s ease; 
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .download:hover {
+    transform: scale(1.1); 
+    color: #081f62;
+    background-color: #E7E9F0; 
+    box-shadow: 0 4px 8px #051757; 
+  }
+  
+
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the content horizontally */
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0; /* Adds vertical spacing */
+    text-align: center;
+}
+
+.footer{
+  display: center;
+  gap: 10px; /* Space between navigation links */
+  background-color:  #535F80; /* Semi-transparent background for contrast */
+  padding: 10px; /* Add padding inside the bar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
+  font-size: 30px;
+  text-align: center;
+  color:white;
+  margin-top: 500px;
+    
+  }
+
+  .social-icons{
+
+    color:rgb(255, 255, 255);
+  }
+
+  #fb:hover{
+
+    color: blue;
+  }
+
+  #ig:hover{
+    color:rgb(195, 67, 200);
+  }
+
+  #tiktok:hover{
+    color: black;
+  }
+
+  #yt:hover{
+    color:red;
+  }
+
+  .contact-info {
+    margin-top: 20px; /* Adds space above the contact info */
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.contact-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}

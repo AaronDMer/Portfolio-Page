@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="style4 4.css">
+  <script src="https://kit.fontawesome.com/7599bf78cd.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar Section -->
+  <section class="navbar" id="top">
+    <div class="container">
+      <header class="header">
+        <div class="icon-bar">
+          <a href="index.html" class="nav-link">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+          </a>
+          <a href="Skills.html" class="nav-link">
+            <i class="fa-solid fa-child-dress"></i>
+            <span>Skills</span>
+          </a>
+          <a href="Projects.html" class="nav-link">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>Projects</span>
+          </a>
+          <a href="#contact-info" class="nav-link">
+            <i class="fa-regular fa-address-card"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </header>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <a href="#top" id="myBtn">Top</a>
+    <div class="container">
+      <h2>TO-DO MENU</h2>
+      <p>This C++ program implements a simple text-based To-Do List application, allowing users to manage tasks through a menu-driven interface. It defines a Task structure containing an ID, description, and completion status. Tasks are stored in a std::vector. The program provides functionality to create new tasks, view the list of tasks, update task details (description and completion status), and delete tasks based on their ID.</p>
+      <p>The main function displays the menu and handles user input to call appropriate functions. Tasks are managed dynamically, ensuring IDs are unique and automatically assigned. The displayMenu function shows options, while helper functions (createTask, readTasks, updateTask, and deleteTask) perform respective operations with error checks like ensuring tasks exist before updating or deleting.</p>
+
+      <div>
+        <img src="Picture/To-do Menu.PNG" alt="Project-related image">
+        <p id="caption" class="caption">To-DO MENU C++</p>
+      </div>
+
+      <div class="center">
+        <a href="Files/To-do.cpp" class="download" style="color: inherit; text-decoration: none;">Download File</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="follow-me">
+        <h5>Follow Me</h5>
+        <div class="social-icons">
+          <a href="#" class="social-icons" id="fb"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" class="social-icons" id="ig"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-icons" id="tiktok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#" class="social-icons" id="yt"><i class="fa-brands fa-youtube"></i></a>
+        </div>        
+      </div>
+      <section id="contact-info" class="contact-info">
+        <p><strong><a href="mailto:24-04989@g.batstate-u.edu.ph" class="contact-link">Email:</strong> 24-04989@g.batstate-u.edu.ph</a></p>
+        <p><strong><a href="#" class="contact-link">Phone: +63 965 501 8535 </a></p>
+        </section>
+    </div>
+  </footer>
+</body>
+</html>
